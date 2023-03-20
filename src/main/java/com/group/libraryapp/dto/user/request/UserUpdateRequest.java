@@ -13,4 +13,9 @@ public class UserUpdateRequest {
     return name;
   }
 
+  public UserUpdateRequest(final long id, final String name) {
+    this.id = id;
+    this.name = name;
+  }
+
 }

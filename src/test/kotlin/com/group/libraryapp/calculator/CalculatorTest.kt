@@ -35,7 +35,7 @@ class CalculatorTest {
   }
 
   fun minusTest() {
-    // arrange
+    // Arrange
     val sut = Calculator(5)
 
     // Act

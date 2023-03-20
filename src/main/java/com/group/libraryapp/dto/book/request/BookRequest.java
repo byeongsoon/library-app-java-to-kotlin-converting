@@ -8,4 +8,8 @@ public class BookRequest {
     return name;
   }
 
+  public BookRequest(final String name) {
+    this.name = name;
+  }
+
 }
